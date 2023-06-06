@@ -90,7 +90,7 @@ public class ChatActivity extends AppCompatActivity {
 
     private void sendCloudMessage(chatMessage m) {
         String serverKey = "AAAAAlbHSGA:APA91bGX-CSYkh4SQLEZngtC4CrhfzHVC71MLtZSHzs4FXDpWr6qsw-Oh6MafuDi17qbeYFhqtO-y2hJ_kLxjCwgtjp8sebW5WMvLtUZjpte-XvjYXP3myn4jGbfp5FObYUbMafbssfF";
-        String topic = "chat";
+        String topic = "NoamChat";
 
         JSONObject json = new JSONObject();
         try {

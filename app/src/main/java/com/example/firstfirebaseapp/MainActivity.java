@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FirebaseMessaging.getInstance().subscribeToTopic("chat");
+        FirebaseMessaging.getInstance().subscribeToTopic("NoamChat");
 
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
